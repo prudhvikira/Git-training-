@@ -4,7 +4,7 @@ stages {
   stage('Checkout') {
     steps {
 // Checkout code from the Git repository
-     sh 'echo check out'
+     sh 'echo checking out'
    }
   }
 stage('Build') {
